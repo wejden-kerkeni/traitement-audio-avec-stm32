@@ -6,7 +6,7 @@ To build this project, you will need:
 * STM32F407 board
 * OTG cable
 * USB drive
-* 5 buttons
+* 1 button
 * jack to jack cable
 * Speakers
 
@@ -20,7 +20,6 @@ To build this project, you will need:
 * Build the project and flash it to the STM32F407 board.
 * Connect the USB drive to the STM32F407 board.
 * Connect the port jack to the audio output of the STM32F407 board.
-* Connect the 5 buttons to the GPIO pins of the STM32F407 board.
 * Power on the board.
 * Use the buttons to control music playback, volume, and track selection.
 ## Configuration
@@ -28,7 +27,3 @@ To build this project, you will need:
  To configure the GPIO pins for button inputs, you can modify the main.c file in the project. The default pin configuration for the buttons is:
 
 * Play/Pause: PA0
-* Next Track: PA3
-* Previous Track: PA5
-* Volume Up: PA1
-* Volume Down: PA2
